@@ -17,25 +17,29 @@ The purpose of this analysis is to use Python visualizations to determine trends
   * The data types of each column of data
   * The three types of cities (Urban, Suburban, Rural)
   * The number of each type of city
-   - 66 Urban Cities
-   - 36 Suburban Cities
-   - 18 Rural Cities
+    - 66 Urban Cities
+    - 36 Suburban Cities
+    - 18 Rural Cities
 
 - Then, since both data sets include the cities, the sets were merged into one DataFrame.
 
 - With the data merges, other analysis can be determined:
   * The number of rides taken in each city.
   * The average fare for each city type.
+  * The number of drivers in each city.
+
 
 - A bubble plot was created for each city type showing the relationship between the average fare and the number of rides. All bubble plots showed little to no correlation.
 
 <p align="center"><img src="https://github.com/M-Outlaw/BootCamp-Mod-5-PyBer_Analysis/blob/main/analysis/Average_Fare_per_rides_Urban.png" width="301.6" height="205.6"/>&nbsp;<img src="https://github.com/M-Outlaw/BootCamp-Mod-5-PyBer_Analysis/blob/main/analysis/Average_Fare_per_rides_Suburban.png" width="301.6" height="205.6"/>&nbsp;<img src="https://github.com/M-Outlaw/BootCamp-Mod-5-PyBer_Analysis/blob/main/analysis/Average_Fare_per_rides_Rural.png" width="301.6" height="205.6"/></p>
 
-- However, after combining the bubble plots into one chart, a correlation between average fares being highest in rural areas and least in urban areas. From the size of the bubbles, it can be seen that the average number of rides was highest in urban areas and least in rural areas.
+
+- However, after combining the bubble plots into one chart, a correlation between average fares and city type revealed that the most expensive fares were in rural areas and the least expensive fares in urban areas. Also, from the size of the bubbles, it can be seen that the average number of rides was highest in urban areas and least in rural areas.
 
 <p align="center"><img src="https://github.com/M-Outlaw/BootCamp-Mod-5-PyBer_Analysis/blob/main/analysis/Average_Fare_per_rides_All.png"/></p>
 
-- The correlation between the number of rides and the type of city is further shown by the statistics:
+
+- The correlation of more drivers in urban areas and less drivers in rural area is also seen. How city type effects the number of rides, the average fares, and the number of drives further shown by the statistics:
 
 <p align="center"><img src="https://github.com/M-Outlaw/BootCamp-Mod-5-PyBer_Analysis/blob/main/analysis/Boxplot_All_rides.png" width="278.5" height="178.5"/>&nbsp;&nbsp;&nbsp;<img src="https://github.com/M-Outlaw/BootCamp-Mod-5-PyBer_Analysis/blob/main/analysis/Boxplot_All_fare.png" width="278.5" height="178.5"/>&nbsp;&nbsp;&nbsp;<img src="https://github.com/M-Outlaw/BootCamp-Mod-5-PyBer_Analysis/blob/main/analysis/Boxplot_All_drivers.png" width="278.5" height="178.5"/></p>
 
@@ -47,12 +51,12 @@ The purpose of this analysis is to use Python visualizations to determine trends
 
 <p align="center"><img src="https://github.com/M-Outlaw/BootCamp-Mod-5-PyBer_Analysis/blob/main/analysis/Piechart_rides.png" width="320" height="296"/></p>
 
-The total number of drivers for all cities were determined and the percents of the number of drivers per city types were used to create a pie chart.
+- The total number of drivers for all cities were determined and the percents of the number of drivers per city types were used to create a pie chart.
 
 <p align="center"><img src="https://github.com/M-Outlaw/BootCamp-Mod-5-PyBer_Analysis/blob/main/analysis/Piechart_drivers.png" width="320" height="296"/></p>
 
 #### Summary Table
-- Then, a summary of the merged DataFrame 
+- Then, a summary of the merged DataFrame was created.
 
 <p align="center"><img src="https://github.com/M-Outlaw/BootCamp-Mod-5-PyBer_Analysis/blob/main/analysis/Summary.png" width="666" height="138"/></p>
 
@@ -89,7 +93,8 @@ The total number of drivers for all cities were determined and the percents of t
 
 ### Recommendation
 - There is a large difference in all of the components between rural areas and urban areas with suburban areas between the two.
-- There are 3 recommendations to try to bring the rural and suburban areas up to the great stats seen in the urban areas.
-  1) While urban areas inherently have a larger population, more shops and restaurants, and promotes more ride sharing, making the ride sharing more accessible by employing more drivers in rural and suburban areas could increase the number of rides. When less drivers are available, people tend to not rely on the service because it is harder to get a ride when they need it. Hiring more drivers would reduce wait times in getting the ride.
-  2) Providing more advertising, especially in rural areas, would also be helpful, because in rural areas people may be less familiar with ride share services or that their city has one.
-  3) Reducing the fare price for rural and suburban areas would also encourage people to use these services. In urban areas, where it is harder to find parking, ride sharing can be charged a premium. A reduced price for less populous areas would promote more buisiness. 
+- There are 3 recommendations to try to bring the rural and suburban areas up to the great stats seen in the urban areas:
+
+1. While urban areas inherently have a larger population, more shops and restaurants, and promotes more ride sharing, making the ride sharing more accessible by employing more drivers in rural and suburban areas could increase the number of rides. When less drivers are available, people tend to not rely on the service because it is harder to get a ride when they need it. Hiring more drivers would reduce wait times in getting the ride.
+2. Providing more advertising, especially in rural areas, would also be helpful, because in rural areas people may be less familiar with ride share services or that their city has one.
+3. Reducing the fare price for rural and suburban areas would also encourage people to use these services. In urban areas, where it is harder to find parking, ride sharing can be charged at a premium. A reduced price for less populous areas would promote more business. 
