@@ -58,7 +58,7 @@ The purpose of this analysis is to use Python visualizations to determine trends
 #### Summary Table
 - Then, a summary of the merged DataFrame was created.
 
-<p align="center"><img src="https://github.com/M-Outlaw/BootCamp-Mod-5-PyBer_Analysis/blob/main/analysis/Summary.png" width="666" height="138"/></p>
+<p align="center"><img src="https://github.com/M-Outlaw/BootCamp-Mod-5-PyBer_Analysis/blob/main/analysis/Summary_table.png"/></p>
 
 ### Summary Plot
 - Finally, a line plot of all city types was graphed together to show the fare values over the months of January to May in 2019.
